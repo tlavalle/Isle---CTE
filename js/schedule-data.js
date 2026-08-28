@@ -47,6 +47,7 @@ const WEEKLY_DATA = {
     },
 
     "manufacturing": {
+      active: false,
       title: "Manufacturing",
       goal: "Use design, production, quality, and problem-solving processes to manufacture accurate products.",
       days: {
