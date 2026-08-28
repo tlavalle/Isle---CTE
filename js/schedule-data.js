@@ -1,10 +1,9 @@
 const WEEKLY_DATA = {
   week: "August 31 - September 4",
-
   note: "Check here for the current focus in each class. Detailed assignments remain in Google Classroom.",
-
   classes: {
     "industrial-tech": {
+      active: true,
       title: "Industrial Tech",
       goal: "Build safe, accurate, professional shop habits while learning to think, design, build, and improve.",
       days: {
@@ -17,8 +16,8 @@ const WEEKLY_DATA = {
       notebook: "Record sketches, measurements, design decisions, inspection results, and reflections.",
       next: "Update what is coming next."
     },
-
     "home-repairs": {
+      active: true,
       title: "Home Repairs",
       goal: "Develop practical skills for safely inspecting, maintaining, and repairing residential systems.",
       days: {
@@ -31,8 +30,8 @@ const WEEKLY_DATA = {
       notebook: "Document procedures, diagrams, measurements, troubleshooting, and reflections.",
       next: "Update what is coming next."
     },
-
     "welding": {
+      active: true,
       title: "Welding",
       goal: "Develop safe welding, fabrication, measurement, inspection, and quality-control skills.",
       days: {
@@ -45,7 +44,6 @@ const WEEKLY_DATA = {
       notebook: "Record settings, joint preparation, weld observations, inspection notes, and improvements.",
       next: "Update what is coming next."
     },
-
     "manufacturing": {
       active: false,
       title: "Manufacturing",
