@@ -22,8 +22,6 @@ const WEEKLY_DATA = {
       active: true,
       title: "Industrial Tech",
       goal: "Build safe, accurate, professional shop habits while learning to think, design, build, and improve.",
-
-      // ===== EDIT THIS WEEK =====
       days: {
         Monday: "Update Monday's activity.",
         Tuesday: "Update Tuesday's activity.",
@@ -31,7 +29,6 @@ const WEEKLY_DATA = {
         Thursday: "Update Thursday's activity.",
         Friday: "Update Friday's activity."
       },
-
       notebook: "Record shop notes, measurements, sketches, procedures, design decisions, and reflections.",
       next: "Update what is coming next."
     },
@@ -40,8 +37,6 @@ const WEEKLY_DATA = {
       active: true,
       title: "Home Repairs",
       goal: "Develop practical skills for safely inspecting, maintaining, and repairing residential systems.",
-
-      // ===== EDIT THIS WEEK =====
       days: {
         Monday: "Update Monday's activity.",
         Tuesday: "Update Tuesday's activity.",
@@ -49,8 +44,22 @@ const WEEKLY_DATA = {
         Thursday: "Update Thursday's activity.",
         Friday: "Update Friday's activity."
       },
-
       notebook: "Document procedures, diagrams, measurements, troubleshooting, and reflections.",
+      next: "Update what is coming next."
+    },
+
+    "auto-tech": {
+      active: true,
+      title: "Auto Tech",
+      goal: "Develop safe, practical automotive skills through engine, electrical, diagnostic, and repair work.",
+      days: {
+        Monday: "Update Monday's activity.",
+        Tuesday: "Update Tuesday's activity.",
+        Wednesday: "Update Wednesday's activity.",
+        Thursday: "Update Thursday's activity.",
+        Friday: "Update Friday's activity."
+      },
+      notebook: "Record procedures, measurements, component identification, diagnostic findings, calculations, and reflections.",
       next: "Update what is coming next."
     },
 
@@ -58,8 +67,6 @@ const WEEKLY_DATA = {
       active: true,
       title: "Welding",
       goal: "Develop safe welding, fabrication, measurement, inspection, and quality-control skills.",
-
-      // ===== EDIT THIS WEEK =====
       days: {
         Monday: "Update Monday's activity.",
         Tuesday: "Update Tuesday's activity.",
@@ -67,18 +74,14 @@ const WEEKLY_DATA = {
         Thursday: "Update Thursday's activity.",
         Friday: "Update Friday's activity."
       },
-
       notebook: "Record settings, joint preparation, weld observations, inspection notes, and improvements.",
       next: "Update what is coming next."
     },
 
     "manufacturing": {
-      // Change false to true when Manufacturing is in session.
       active: false,
       title: "Manufacturing",
       goal: "Use design, production, quality, and problem-solving processes to manufacture accurate products.",
-
-      // ===== EDIT THIS WEEK WHEN ACTIVE =====
       days: {
         Monday: "Update Monday's activity.",
         Tuesday: "Update Tuesday's activity.",
@@ -86,7 +89,6 @@ const WEEKLY_DATA = {
         Thursday: "Update Thursday's activity.",
         Friday: "Update Friday's activity."
       },
-
       notebook: "Record planning, CAD/design work, process decisions, measurements, quality checks, and revisions.",
       next: "Update what is coming next."
     }
