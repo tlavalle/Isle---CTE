@@ -2,14 +2,7 @@
 // ISLE CTE — WEEKLY CALENDAR
 // ============================================================
 // THIS IS THE ONLY FILE YOU NEED TO EDIT EACH WEEK.
-//
-// 1. Change the week dates below.
-// 2. Change Monday-Friday for each active class.
-// 3. Set active to true or false when a quarter class changes.
-// 4. Click Commit changes in GitHub.
-//
-// Do not change the words before the colon (Monday:, Tuesday:, etc.).
-// Keep the quotation marks around your text.
+// Change the week dates and Monday-Friday activities, then Commit changes.
 // ============================================================
 
 const WEEKLY_DATA = {
@@ -17,20 +10,19 @@ const WEEKLY_DATA = {
   note: "Check here for the current focus in each class. Detailed assignments remain in Google Classroom.",
 
   classes: {
-
     "industrial-tech": {
       active: true,
       title: "Industrial Tech",
       goal: "Build safe, accurate, professional shop habits while learning to think, design, build, and improve.",
       days: {
-        Monday: "Update Monday's activity.",
-        Tuesday: "Update Tuesday's activity.",
-        Wednesday: "Update Wednesday's activity.",
-        Thursday: "Update Thursday's activity.",
-        Friday: "Update Friday's activity."
+        Monday: "Measurement & Layout — Review measuring tools, accurate layout, and shop measurement procedures.",
+        Tuesday: "Measurement Practice — Hands-on measurement and layout skill practice.",
+        Wednesday: "Onshape Introduction — Chromebook setup, interface, navigation, and basic sketch tools.",
+        Thursday: "Onshape Design Challenge — Create and revise a simple CAD design using accurate dimensions.",
+        Friday: "Engineering Notebook Check — Update notebook entries, document this week's work, and review measurement and CAD skills."
       },
-      notebook: "Record shop notes, measurements, sketches, procedures, design decisions, and reflections.",
-      next: "Update what is coming next."
+      notebook: "Record measurements, sketches, Onshape work, procedures, design decisions, and reflections.",
+      next: "Continue Onshape CAD and move into design-build activities."
     },
 
     "home-repairs": {
@@ -38,14 +30,14 @@ const WEEKLY_DATA = {
       title: "Home Repairs",
       goal: "Develop practical skills for safely inspecting, maintaining, and repairing residential systems.",
       days: {
-        Monday: "Update Monday's activity.",
-        Tuesday: "Update Tuesday's activity.",
-        Wednesday: "Update Wednesday's activity.",
-        Thursday: "Update Thursday's activity.",
-        Friday: "Update Friday's activity."
+        Monday: "Wall Framing Introduction — Identify the parts of a framed wall and their functions.",
+        Tuesday: "Framing Layout — Practice measuring and laying out plates, studs, corners, and openings.",
+        Wednesday: "Wall Framing Planning — Read a simple wall plan and calculate framing materials.",
+        Thursday: "Hands-On Framing — Measure, mark, and begin assembling a practice wall section.",
+        Friday: "Framing Check & Documentation — Check square, spacing, and accuracy; document work in the Engineering Notebook."
       },
-      notebook: "Document procedures, diagrams, measurements, troubleshooting, and reflections.",
-      next: "Update what is coming next."
+      notebook: "Document wall framing vocabulary, measurements, layout, diagrams, procedures, and reflections.",
+      next: "Continue wall framing and residential construction skills."
     },
 
     "auto-tech": {
@@ -53,45 +45,29 @@ const WEEKLY_DATA = {
       title: "Auto Tech",
       goal: "Develop safe, practical automotive skills through engine, electrical, diagnostic, and repair work.",
       days: {
-        Monday: "Update Monday's activity.",
-        Tuesday: "Update Tuesday's activity.",
-        Wednesday: "Update Wednesday's activity.",
-        Thursday: "Update Thursday's activity.",
-        Friday: "Update Friday's activity."
+        Monday: "Engine Fundamentals — Identify major engine systems and explain the purpose of the internal combustion engine.",
+        Tuesday: "Engine Components — Identify major internal and external engine components and their functions.",
+        Wednesday: "Four-Stroke Cycle — Intake, compression, power, and exhaust; connect piston and valve movement to engine operation.",
+        Thursday: "Engine Inspection Activity — Locate components on an engine and document observations, tools, and safety procedures.",
+        Friday: "Engine Fundamentals Review — Component identification, four-stroke cycle review, and Engineering Notebook check."
       },
-      notebook: "Record procedures, measurements, component identification, diagnostic findings, calculations, and reflections.",
-      next: "Update what is coming next."
+      notebook: "Record engine diagrams, component identification, procedures, measurements, observations, and reflections.",
+      next: "Move deeper into engine measurement, inspection, teardown, and engine math."
     },
 
     "welding": {
       active: true,
-      title: "Welding",
-      goal: "Develop safe welding, fabrication, measurement, inspection, and quality-control skills.",
+      title: "Welding / Manufacturing",
+      goal: "Develop safe welding, fabrication, manufacturing, measurement, inspection, and quality-control skills.",
       days: {
-        Monday: "Update Monday's activity.",
-        Tuesday: "Update Tuesday's activity.",
-        Wednesday: "Update Wednesday's activity.",
-        Thursday: "Update Thursday's activity.",
-        Friday: "Update Friday's activity."
+        Monday: "SMAW Equipment — Identify the welder, leads, electrode holder, work clamp, PPE, and supporting equipment.",
+        Tuesday: "SMAW Setup — Learn the correct equipment setup sequence and safe pre-weld checks.",
+        Wednesday: "Setup Errors & Troubleshooting — Identify common setup problems and determine READY, REWORK, or STOP.",
+        Thursday: "Hands-On Setup Practice — Practice safe machine setup, electrode selection, work clamp placement, and workstation preparation.",
+        Friday: "SMAW Skill Check — Demonstrate correct setup, explain safety checks, document settings, and complete an Engineering Notebook entry."
       },
-      notebook: "Record settings, joint preparation, weld observations, inspection notes, and improvements.",
-      next: "Update what is coming next."
-    },
-
-    "manufacturing": {
-      active: false,
-      title: "Manufacturing",
-      goal: "Use design, production, quality, and problem-solving processes to manufacture accurate products.",
-      days: {
-        Monday: "Update Monday's activity.",
-        Tuesday: "Update Tuesday's activity.",
-        Wednesday: "Update Wednesday's activity.",
-        Thursday: "Update Thursday's activity.",
-        Friday: "Update Friday's activity."
-      },
-      notebook: "Record planning, CAD/design work, process decisions, measurements, quality checks, and revisions.",
-      next: "Update what is coming next."
+      notebook: "Record welding equipment, machine settings, setup sequence, safety checks, observations, inspection notes, and improvements.",
+      next: "Continue SMAW practice and welding skill development before transitioning into manufacturing later in the course."
     }
-
   }
 };
