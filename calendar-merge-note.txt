@@ -1,0 +1,1 @@
+Merging this branch will make the simplified weekly schedule file available on the live main branch.
