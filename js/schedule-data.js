@@ -1,92 +1,95 @@
+// ============================================================
+// ISLE CTE — WEEKLY CALENDAR
+// ============================================================
+// THIS IS THE ONLY FILE YOU NEED TO EDIT EACH WEEK.
+//
+// 1. Change the week dates below.
+// 2. Change Monday-Friday for each active class.
+// 3. Set active to true or false when a quarter class changes.
+// 4. Click Commit changes in GitHub.
+//
+// Do not change the words before the colon (Monday:, Tuesday:, etc.).
+// Keep the quotation marks around your text.
+// ============================================================
+
 const WEEKLY_DATA = {
-
-  week: "August 31 - September 4",
-
+  week: "September 14 - September 18",
   note: "Check here for the current focus in each class. Detailed assignments remain in Google Classroom.",
 
   classes: {
 
     "industrial-tech": {
       active: true,
-
       title: "Industrial Tech",
-
       goal: "Build safe, accurate, professional shop habits while learning to think, design, build, and improve.",
 
+      // ===== EDIT THIS WEEK =====
       days: {
-        Monday: "No School — Labor Day",
-        Tuesday: "Welcome to Industrial Tech — Course introduction, shop expectations, and Engineering Notebook setup.",
-        Wednesday: "Shop Safety — PPE, general shop rules, hazards, emergency procedures, and KNOW → SHOW → DO.",
-        Thursday: "Shop Orientation — Shop tour, tool and machine locations, material storage, safety zones, and cleanup procedures.",
-        Friday: "Engineering Notebook & Safety — Practice the design process, review safety expectations, and begin required safety training."
+        Monday: "Update Monday's activity.",
+        Tuesday: "Update Tuesday's activity.",
+        Wednesday: "Update Wednesday's activity.",
+        Thursday: "Update Thursday's activity.",
+        Friday: "Update Friday's activity."
       },
 
-      notebook: "Set up your Engineering Notebook and record shop safety notes, procedures, and important information.",
-
-      next: "Measurement, layout, accuracy, precision, and hands-on shop skill building."
+      notebook: "Record shop notes, measurements, sketches, procedures, design decisions, and reflections.",
+      next: "Update what is coming next."
     },
 
     "home-repairs": {
       active: true,
-
       title: "Home Repairs",
-
       goal: "Develop practical skills for safely inspecting, maintaining, and repairing residential systems.",
 
+      // ===== EDIT THIS WEEK =====
       days: {
-        Monday: "No School",
-        Tuesday: "Update this week's activity.",
-        Wednesday: "Update this week's activity.",
-        Thursday: "Update this week's activity.",
-        Friday: "Update this week's activity."
+        Monday: "Update Monday's activity.",
+        Tuesday: "Update Tuesday's activity.",
+        Wednesday: "Update Wednesday's activity.",
+        Thursday: "Update Thursday's activity.",
+        Friday: "Update Friday's activity."
       },
 
       notebook: "Document procedures, diagrams, measurements, troubleshooting, and reflections.",
-
       next: "Update what is coming next."
     },
 
     "welding": {
       active: true,
-
       title: "Welding",
-
       goal: "Develop safe welding, fabrication, measurement, inspection, and quality-control skills.",
 
+      // ===== EDIT THIS WEEK =====
       days: {
-        Monday: "No School",
-        Tuesday: "Update this week's activity.",
-        Wednesday: "Update this week's activity.",
-        Thursday: "Update this week's activity.",
-        Friday: "Update this week's activity."
+        Monday: "Update Monday's activity.",
+        Tuesday: "Update Tuesday's activity.",
+        Wednesday: "Update Wednesday's activity.",
+        Thursday: "Update Thursday's activity.",
+        Friday: "Update Friday's activity."
       },
 
       notebook: "Record settings, joint preparation, weld observations, inspection notes, and improvements.",
-
       next: "Update what is coming next."
     },
 
     "manufacturing": {
+      // Change false to true when Manufacturing is in session.
       active: false,
-
       title: "Manufacturing",
-
       goal: "Use design, production, quality, and problem-solving processes to manufacture accurate products.",
 
+      // ===== EDIT THIS WEEK WHEN ACTIVE =====
       days: {
-        Monday: "No School",
-        Tuesday: "Update this week's activity.",
-        Wednesday: "Update this week's activity.",
-        Thursday: "Update this week's activity.",
-        Friday: "Update this week's activity."
+        Monday: "Update Monday's activity.",
+        Tuesday: "Update Tuesday's activity.",
+        Wednesday: "Update Wednesday's activity.",
+        Thursday: "Update Thursday's activity.",
+        Friday: "Update Friday's activity."
       },
 
       notebook: "Record planning, CAD/design work, process decisions, measurements, quality checks, and revisions.",
-
       next: "Update what is coming next."
     }
 
   }
-
 };
-
