@@ -1,0 +1,7 @@
+Calendar branch validation
+
+- Existing site.js expects WEEKLY_DATA.week, note, classes, active, title, goal, days, notebook, next.
+- New schedule-data.js preserves all of those fields.
+- Course keys remain industrial-tech, home-repairs, welding, manufacturing.
+- Monday-Friday keys remain unchanged.
+- Existing public page rendering therefore remains compatible.
