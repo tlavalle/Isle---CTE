@@ -1,0 +1,1 @@
+The public calendar editor does not contain a GitHub token or password. GitHub authentication remains on GitHub.
