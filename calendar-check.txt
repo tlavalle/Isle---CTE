@@ -1,0 +1,1 @@
+Compatibility check: schedule data field names and class keys match the existing site renderer.
