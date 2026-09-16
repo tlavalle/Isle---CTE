@@ -1,0 +1,5 @@
+Need to update the site?
+
+Only edit: js/schedule-data.js
+
+You should not need to edit site.js, index.html, this-week.html, or the individual class pages for normal weekly schedule changes.
