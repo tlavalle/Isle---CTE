@@ -1,0 +1,12 @@
+EXAMPLE WEEKLY UPDATE
+
+week: "September 21 - September 25"
+
+Industrial Tech
+Monday: Measurement and layout practice
+Tuesday: Onshape introduction
+Wednesday: Onshape sketching
+Thursday: Design challenge
+Friday: Engineering Notebook check
+
+You would type those activities into the matching Monday-Friday lines in js/schedule-data.js and commit the change.

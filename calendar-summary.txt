@@ -1,0 +1,1 @@
+The weekly schedule is now isolated into one easy-to-edit file on this branch, with a visual generator and direct GitHub edit shortcut included.

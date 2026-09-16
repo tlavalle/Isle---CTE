@@ -1,0 +1,5 @@
+BOOKMARK THIS AFTER THE CALENDAR UPDATE GOES LIVE:
+
+https://github.com/tlavalle/Isle---CTE/edit/main/js/schedule-data.js
+
+Open → Edit → Commit changes → Done.

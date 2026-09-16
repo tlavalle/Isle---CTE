@@ -1,0 +1,7 @@
+WEEKLY WORKFLOW
+
+1. Open the schedule edit bookmark.
+2. Change week dates.
+3. Change class activities for Monday-Friday.
+4. Commit changes.
+5. GitHub Pages updates the site from the committed schedule.

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Isle CTE Schedule Editor</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.editor{max-width:1000px;margin:auto;padding:30px 20px}.editor-card{background:#fff;border:1px solid #d9e0e4;border-radius:10px;padding:20px;margin:18px 0}.editor label{display:block;font-weight:bold;margin-top:12px}.editor input,.editor textarea{width:100%;padding:10px;margin-top:5px;border:1px solid #bbc5ca;border-radius:6px;font:inherit}.editor textarea{min-height:70px}.editor-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.editor-actions{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.output{min-height:360px;font-family:monospace;white-space:pre}.help{background:#fff5df;border-left:5px solid #b4512a;padding:15px;border-radius:6px}@media(max-width:900px){.editor-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="site-header"><nav class="nav"><a class="brand" href="index.html">ISLE CTE</a><a href="index.html">Website</a></nav></header>
+<main class="editor">
+<h1 style="font-size:2.5rem">Weekly Schedule Editor</h1>
+<p class="help"><strong>Easy mode:</strong> Fill out the week below, click Generate Schedule, then copy the generated text into <code>js/schedule-data.js</code> on GitHub and commit the change.</p>
+<label>Week</label><input id="week" value="September 14 - September 18">
+<div id="courses"></div>
+<div class="editor-actions"><button class="button" onclick="generate()">Generate Schedule</button><button class="button" onclick="copySchedule()">Copy Schedule</button></div>
+<label>Generated schedule-data.js</label><textarea id="output" class="output"></textarea>
+</main>
+<script>
+const courseInfo={
+ 'industrial-tech':{title:'Industrial Tech',active:true,goal:'Build safe, accurate, professional shop habits while learning to think, design, build, and improve.',notebook:'Record shop notes, measurements, sketches, procedures, design decisions, and reflections.'},
+ 'home-repairs':{title:'Home Repairs',active:true,goal:'Develop practical skills for safely inspecting, maintaining, and repairing residential systems.',notebook:'Document procedures, diagrams, measurements, troubleshooting, and reflections.'},
+ 'welding':{title:'Welding',active:true,goal:'Develop safe welding, fabrication, measurement, inspection, and quality-control skills.',notebook:'Record settings, joint preparation, weld observations, inspection notes, and improvements.'},
+ 'manufacturing':{title:'Manufacturing',active:false,goal:'Use design, production, quality, and problem-solving processes to manufacture accurate products.',notebook:'Record planning, CAD/design work, process decisions, measurements, quality checks, and revisions.'}
+};
+const days=['Monday','Tuesday','Wednesday','Thursday','Friday'];
+const courses=document.getElementById('courses');
+Object.entries(courseInfo).forEach(([key,c])=>{courses.insertAdjacentHTML('beforeend',`<section class="editor-card" data-key="${key}"><h2>${c.title}</h2><label><input style="width:auto" type="checkbox" class="active" ${c.active?'checked':''}> Class is active</label><div class="editor-grid">${days.map(d=>`<label>${d}<textarea class="day" data-day="${d}"></textarea></label>`).join('')}</div><label>Coming Next<textarea class="next"></textarea></label></section>`)});
+function q(s){return JSON.stringify(s)}
+function generate(){let classes=[];document.querySelectorAll('.editor-card').forEach(card=>{let key=card.dataset.key,c=courseInfo[key],ds={};card.querySelectorAll('.day').forEach(x=>ds[x.dataset.day]=x.value);let dayText=days.map(d=>`        ${d}: ${q(ds[d])}`).join(',\n');classes.push(`    ${q(key)}: {\n      active: ${card.querySelector('.active').checked},\n      title: ${q(c.title)},\n      goal: ${q(c.goal)},\n      days: {\n${dayText}\n      },\n      notebook: ${q(c.notebook)},\n      next: ${q(card.querySelector('.next').value)}\n    }`)});document.getElementById('output').value=`// ISLE CTE WEEKLY SCHEDULE — edit this file each week\nconst WEEKLY_DATA = {\n  week: ${q(document.getElementById('week').value)},\n  note: "Check here for the current focus in each class. Detailed assignments remain in Google Classroom.",\n  classes: {\n${classes.join(',\n\n')}\n  }\n};\n`}
+async function copySchedule(){generate();await navigator.clipboard.writeText(document.getElementById('output').value);alert('Schedule copied. Paste it into js/schedule-data.js on GitHub.');}
+</script>
+</body>
+</html>

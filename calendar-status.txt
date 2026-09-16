@@ -1,0 +1,1 @@
+Calendar editor implementation is ready for review on the simple-calendar-editor branch.

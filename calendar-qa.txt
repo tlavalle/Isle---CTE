@@ -1,0 +1,1 @@
+Existing schedule data schema preserved for site.js compatibility.

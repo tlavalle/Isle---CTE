@@ -1,0 +1,67 @@
+name: Weekly Schedule
+
+description: Plan the Isle CTE weekly class schedule without editing website code.
+title: "Weekly Schedule: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to plan the weekly schedule. After it is submitted, the entries can be copied into `js/schedule-data.js`.
+
+  - type: input
+    id: week
+    attributes:
+      label: Week
+      description: Example — September 14 - September 18
+      placeholder: September 14 - September 18
+    validations:
+      required: true
+
+  - type: textarea
+    id: industrial
+    attributes:
+      label: Industrial Tech
+      description: Enter Monday through Friday activities.
+      value: |
+        Monday: 
+        Tuesday: 
+        Wednesday: 
+        Thursday: 
+        Friday: 
+
+  - type: textarea
+    id: home
+    attributes:
+      label: Home Repairs
+      description: Enter Monday through Friday activities.
+      value: |
+        Monday: 
+        Tuesday: 
+        Wednesday: 
+        Thursday: 
+        Friday: 
+
+  - type: textarea
+    id: welding
+    attributes:
+      label: Welding
+      description: Enter Monday through Friday activities.
+      value: |
+        Monday: 
+        Tuesday: 
+        Wednesday: 
+        Thursday: 
+        Friday: 
+
+  - type: textarea
+    id: manufacturing
+    attributes:
+      label: Manufacturing
+      description: Leave blank when Manufacturing is not in session.
+      value: |
+        Monday: 
+        Tuesday: 
+        Wednesday: 
+        Thursday: 
+        Friday: 
