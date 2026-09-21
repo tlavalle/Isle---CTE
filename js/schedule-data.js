@@ -17,12 +17,12 @@ const WEEKLY_DATA = {
       days: {
         Monday: "Wood Project Planning — Review the design brief; create sketches, dimensions, and a material plan.",
         Tuesday: "Board Selection & Layout — Identify reference faces and edges, inspect material, and plan accurate layout.",
-        Wednesday: "Cut & Reference Surfaces — Practice accurate sizing and establish square reference surfaces.",
-        Thursday: "Drill, Shape & Inspect — Apply safe drilling and shaping procedures and inspect work for accuracy.",
-        Friday: "Assembly Planning — Review fasteners, adhesives, dry fitting, quality control, and Engineering Notebook documentation."
+        Wednesday: "Phone Stand Design Challenge — Choose wood or 3D-printed plastic, measure the phone, review project requirements, and begin two concept sketches.",
+        Thursday: "Phone Stand Design — Complete concept sketches, select a design, determine major dimensions, and begin the Onshape model.",
+        Friday: "Phone Stand CAD — Continue the Onshape model, add dimensions and functional features, and prepare for instructor design approval."
       },
-      notebook: "Record project sketches, dimensions, material plans, layout decisions, inspection results, and improvements.",
-      next: "Continue the wood project through assembly, inspection, and improvement."
+      notebook: "Document the phone stand material choice, phone measurements, two concept sketches, dimensions, design decisions, and Onshape progress.",
+      next: "Complete design approval, manufacture the phone stand from wood or 3D-printed plastic, test it, improve it, and complete the final reflection."
     },
 
     "home-repairs": {
