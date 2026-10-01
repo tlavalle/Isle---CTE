@@ -6,7 +6,7 @@
 // ============================================================
 
 const WEEKLY_DATA = {
-  week: "September 28 - October 2",
+  week: "October 5 - October 9",
   note: "Check here for the current focus in each class. Detailed assignments remain in Google Classroom.",
 
   classes: {
@@ -15,14 +15,14 @@ const WEEKLY_DATA = {
       title: "Industrial Tech",
       goal: "Build safe, accurate, professional shop habits while learning to think, design, build, and improve.",
       days: {
-        Monday: "Phone Stand Project — Continue design work, measurements, material selection, and project planning.",
-        Tuesday: "Phone Stand & Safety Skills — Continue the phone stand project while completing required shop safety skill checks.",
-        Wednesday: "Phone Stand Build — Apply safe tool procedures while manufacturing and refining the phone stand.",
-        Thursday: "Phone Stand Build & Safety Skills — Continue fabrication, inspect accuracy, and complete remaining safety skill checks.",
-        Friday: "Phone Stand Testing & Documentation — Test function and stability, make improvements, and update the Engineering Notebook."
+        Monday: "Phone Stand Build — Continue fabrication with emphasis on accurate measurement, safe tool use, and quality workmanship.",
+        Tuesday: "Phone Stand Build — Continue construction, check fit and stability, and correct problems found during the build.",
+        Wednesday: "Phone Stand Finish & Test — Complete construction, test the stand, and make final design improvements.",
+        Thursday: "Phone Stand Final Inspection — Complete quality-control checks, final improvements, and Engineering Notebook documentation.",
+        Friday: "Engineering Design Challenge Prep — Review the design process and practice identifying criteria, constraints, and possible solutions."
       },
-      notebook: "Document phone stand dimensions, material choice, build progress, safety skill checks, inspection results, and improvements.",
-      next: "Complete the phone stand project and required shop safety qualifications."
+      notebook: "Document phone stand progress, measurements, problems encountered, testing results, improvements, and evidence of safe tool use.",
+      next: "Apply the engineering design process in a short design-build-test-improve challenge."
     },
 
     "home-repairs": {
