@@ -6,68 +6,64 @@
 // ============================================================
 
 const WEEKLY_DATA = {
-  week: "October 5 - October 9",
-  note: "Check here for the current focus in each class. Detailed assignments remain in Google Classroom.",
-
-  classes: {
+  "week": "October 12 - October 16, 2026",
+  "note": "Check here for the current focus in each class. Detailed assignments remain in Google Classroom.",
+  "classes": {
     "industrial-tech": {
-      active: true,
-      title: "Industrial Tech",
-      goal: "Build safe, accurate, professional shop habits while learning to think, design, build, and improve.",
-      days: {
-        Monday: "Spindle Sander Safety & Qualification — Safety instruction, teacher demonstration, safety check, and hands-on qualification.",
-        Tuesday: "Belt & Disc Sander Safety & Qualification — Safety instruction, teacher demonstration, safety check, and hands-on qualification.",
-        Wednesday: "Phone Stand Project — Continue fabrication and shaping using qualified tools and safe shop procedures.",
-        Thursday: "Phone Stand Project — Continue fabrication, fitting, sanding, and troubleshooting.",
-        Friday: "Phone Stand Project & Catch-Up — Continue project work, complete safety qualification makeups, and update the Engineering Notebook."
+      "active": true,
+      "title": "Industrial Tech",
+      "goal": "Use the engineering design process to build a cantilever, test it with a standard load, and improve the design using measured evidence.",
+      "days": {
+        "Monday": "Cantilever Challenge — Review the design criteria and constraints, sketch a plan, and practice safe building and testing procedures.",
+        "Tuesday": "Cantilever Design–Build–Test–Improve — Build a prototype, test its reach with the teacher-selected standard load, record results, make an improvement, and test again.",
+        "Wednesday": "Cantilever Results — Compare test data, explain how the design changed, and document evidence of improvement.",
+        "Thursday": "Project Work & Catch-Up — Complete cantilever documentation and any remaining phone stand work or safety qualifications.",
+        "Friday": "Engineering Notebook & Reflection — Review sketches, measurements, test results, and safe shop habits; explain what you would improve next."
       },
-      notebook: "Document sander safety qualifications, phone stand progress, measurements, problems encountered, improvements, and evidence of safe tool use.",
-      next: "Complete the phone stand project and continue applying safe machine operation and the engineering design process."
+      "notebook": "Include the design criteria, labeled sketch, prototype measurements, two test results using the same standard load, the change made between tests, and an evidence-based reflection.",
+      "next": "Apply lessons from the cantilever challenge to future design and build projects."
     },
-
     "home-repairs": {
-      active: true,
-      title: "Home Repairs",
-      goal: "Develop practical skills for safely inspecting, maintaining, and repairing residential systems.",
-      days: {
-        Monday: "Wall Build — Continue framing; check stud spacing, corners, square, and overall dimensions.",
-        Tuesday: "Finish Wall Framing — Complete wall assembly and correct framing problems.",
-        Wednesday: "Wall Inspection & Corrections — Complete final measurements, square/plumb checks, fastener inspection, and corrections.",
-        Thursday: "Introduction to Rough-In — Learn basic rough-in layout, box/opening locations, measuring, and layout; begin layout as groups finish walls.",
-        Friday: "Begin Rough-In — Lay out and begin installing rough-in components in the practice wall sections."
+      "active": true,
+      "title": "Home Repairs",
+      "goal": "Develop practical skills for safely inspecting, maintaining, and repairing residential systems.",
+      "days": {
+        "Monday": "Wall & Rough-In — Complete remaining wall corrections and review rough-in layout in the practice wall sections.",
+        "Tuesday": "Rough-In Layout — Measure and mark component locations; check layout before installation.",
+        "Wednesday": "Rough-In Practice — Continue work in the practice wall sections using teacher-approved procedures.",
+        "Thursday": "Rough-In Checks — Inspect layout and installation, identify problems, and make corrections.",
+        "Friday": "Rough-In Progress & Notebook — Continue practice work, document measurements and corrections, and clean the work area."
       },
-      notebook: "Record wall measurements, framing layout, inspection results, corrections, rough-in locations, and construction notes.",
-      next: "Continue rough-in work in the completed practice wall sections."
+      "notebook": "Record rough-in layout sketches, component locations, measurements, inspection results, corrections, and construction notes.",
+      "next": "Continue rough-in practice and inspect the quality of work in the wall sections."
     },
-
     "auto-tech": {
-      active: true,
-      title: "Small Engine",
-      goal: "Develop safe engine service skills through systematic teardown, component inspection, organization, and correct reassembly.",
-      days: {
-        Monday: "Finish Engine Teardown — Complete disassembly, organize and label parts, photograph components, and identify anything still needing removal.",
-        Tuesday: "Inspection & Parts Identification — Clean components, inspect for wear or damage, identify parts and functions, and verify all parts are accounted for.",
-        Wednesday: "Reassembly Preparation — Review assembly order, fasteners, torque specifications, lubrication, gasket surfaces, and organize parts for assembly.",
-        Thursday: "Begin Engine Reassembly — Start reassembling engine components using correct procedures and specifications.",
-        Friday: "Continue Engine Reassembly — Continue assembly, check work as you go, document progress, and complete cleanup."
+      "active": true,
+      "title": "Small Engine",
+      "goal": "Develop safe engine service skills through systematic teardown, component inspection, organization, and correct reassembly.",
+      "days": {
+        "Monday": "Engine Reassembly — Review parts organization, assembly order, and the engine manufacturer's service instructions; continue reassembly.",
+        "Tuesday": "Engine Reassembly — Check component placement, lubrication, fasteners, and specified torque as assembly progresses.",
+        "Wednesday": "Engine Reassembly — Continue assembly and verify each completed step before moving on.",
+        "Thursday": "Reassembly Checks — Check completed work against service instructions and correct any issues identified.",
+        "Friday": "Reassembly Progress & Notebook — Continue assembly as needed, document completed steps and remaining work, and complete shop cleanup."
       },
-      notebook: "Document final teardown, component condition, parts identification, specifications, reassembly sequence, measurements, and technician notes.",
-      next: "Continue engine reassembly using correct specifications, torque procedures, and inspection practices."
+      "notebook": "Record reassembly sequence, specifications used, component checks, problems and corrections, and photos or sketches showing progress.",
+      "next": "Continue engine reassembly and verification using the manufacturer's service procedures."
     },
-
     "welding": {
-      active: true,
-      title: "Welding / Manufacturing",
-      goal: "Develop safe welding skills through spot welding practice and progressive MIG bead practice.",
-      days: {
-        Monday: "Spot Welding Practice — Review safety and setup, practice positioning and spot welds, and inspect weld quality.",
-        Tuesday: "MIG Welding Demonstration — PPE, machine setup, work clamp, gun position, travel angle, stickout, wire speed/voltage basics, and starting/stopping a bead.",
-        Wednesday: "MIG Bead Plate — Run beads across the full plate, rotate the plate, and begin the next layer while focusing on consistency.",
-        Thursday: "MIG Bead Plate — Continue full-plate bead layers, rotating the plate between layers and improving bead width, travel speed, and overlap.",
-        Friday: "MIG Bead Plate — Complete the four-layer bead plate, clean the plate, inspect weld quality, and evaluate improvement."
+      "active": true,
+      "title": "Welding / Manufacturing",
+      "goal": "Develop safe welding skills through spot welding practice and progressive MIG bead practice.",
+      "days": {
+        "Monday": "MIG Bead Plate — Review PPE, safe setup, and prior bead quality; continue the four-layer plate.",
+        "Tuesday": "MIG Bead Plate — Run beads across the full plate, rotating between layers; focus on consistent travel speed and bead width.",
+        "Wednesday": "MIG Bead Plate — Continue layers with attention to overlap and consistency; record technique adjustments.",
+        "Thursday": "Bead Plate Inspection — Complete remaining layers, clean and inspect the plate, and identify strengths and areas to improve.",
+        "Friday": "MIG Practice & Reflection — Continue targeted bead practice as needed and document settings, observations, and improvement."
       },
-      notebook: "Record spot welding observations, MIG setup information, bead plate progress, settings, technique adjustments, and weld-quality observations.",
-      next: "Build consistency in MIG welding and apply the skills developed on the four-layer bead plate."
+      "notebook": "Record machine settings, layer progress, plate rotation, bead-quality observations, technique adjustments, and evidence of improvement.",
+      "next": "Apply consistent MIG bead technique to the next teacher-assigned welding task."
     }
   }
 };
