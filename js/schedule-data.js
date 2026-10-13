@@ -7,49 +7,49 @@
 
 const WEEKLY_DATA = {
   "week": "October 12 - October 16, 2026",
-  "note": "Check here for the current focus in each class. Detailed assignments remain in Google Classroom.",
+  "note": "No school Thursday, October 15, or Friday, October 16 — MEA. Detailed assignments remain in Google Classroom.",
   "classes": {
     "industrial-tech": {
       "active": true,
       "title": "Industrial Tech",
-      "goal": "Use the engineering design process to build a cantilever, test it with a standard load, and improve the design using measured evidence.",
+      "goal": "Plan and build a useful wooden storage box using accurate measurements, a dimensioned drawing, and safe shop procedures.",
       "days": {
         "Monday": "Cantilever Challenge — Review the design criteria and constraints, sketch a plan, and practice safe building and testing procedures.",
-        "Tuesday": "Cantilever Design–Build–Test–Improve — Build a prototype, test its reach with the teacher-selected standard load, record results, make an improvement, and test again.",
-        "Wednesday": "Cantilever Results — Compare test data, explain how the design changed, and document evidence of improvement.",
-        "Thursday": "Project Work & Catch-Up — Complete cantilever documentation and any remaining phone stand work or safety qualifications.",
-        "Friday": "Engineering Notebook & Reflection — Review sketches, measurements, test results, and safe shop habits; explain what you would improve next."
+        "Tuesday": "Wooden Storage Box — Introduce the assignment, choose a purpose, measure the available stock, and create a dimensioned sketch and parts list. Get teacher approval before cutting.",
+        "Wednesday": "Box Planning & Layout — Finish approved plans, review measurement and tool safety, and mark matching parts. Begin cutting only with teacher approval and required tool qualifications.",
+        "Thursday": "No School — MEA (October 15).",
+        "Friday": "No School — MEA (October 16)."
       },
-      "notebook": "Include the design criteria, labeled sketch, prototype measurements, two test results using the same standard load, the change made between tests, and an evidence-based reflection.",
-      "next": "Apply lessons from the cantilever challenge to future design and build projects."
+      "notebook": "Record the box purpose, actual material thickness, dimensioned sketches, parts list, and short-end length calculation. Document teacher approval and progress.",
+      "next": "Cut matching parts, dry-fit and check for square, then assemble the wooden storage box."
     },
     "home-repairs": {
       "active": true,
       "title": "Home Repairs",
-      "goal": "Develop practical skills for safely inspecting, maintaining, and repairing residential systems.",
+      "goal": "Explain rough-in research through choice-board presentations and connect findings to the practice wall.",
       "days": {
         "Monday": "Wall & Rough-In — Complete remaining wall corrections and review rough-in layout in the practice wall sections.",
-        "Tuesday": "Rough-In Layout — Measure and mark component locations; check layout before installation.",
-        "Wednesday": "Rough-In Practice — Continue work in the practice wall sections using teacher-approved procedures.",
-        "Thursday": "Rough-In Checks — Inspect layout and installation, identify problems, and make corrections.",
-        "Friday": "Rough-In Progress & Notebook — Continue practice work, document measurements and corrections, and clean the work area."
+        "Tuesday": "Choice Board Presentations — Present one of the three completed activities and explain how the research connects to the wall project.",
+        "Wednesday": "Presentations & Wall Checks — Finish presentations, check walls for dimensions and square, and sketch proposed rough-in locations as time allows.",
+        "Thursday": "No School — MEA (October 15).",
+        "Friday": "No School — MEA (October 16)."
       },
-      "notebook": "Record rough-in layout sketches, component locations, measurements, inspection results, corrections, and construction notes.",
-      "next": "Continue rough-in practice and inspect the quality of work in the wall sections."
+      "notebook": "Record presentation takeaways, rough-in sketches, and how proposed electrical, plumbing, or HVAC locations connect to the practice wall.",
+      "next": "Check completed walls and plan teacher-approved rough-in layouts."
     },
     "auto-tech": {
       "active": true,
       "title": "Small Engine",
-      "goal": "Develop safe engine service skills through systematic teardown, component inspection, organization, and correct reassembly.",
+      "goal": "Use disassembled engines to identify components, explain their functions, and demonstrate knowledge of engine operation, tools, and safety through the choice board.",
       "days": {
         "Monday": "Engine Reassembly — Review parts organization, assembly order, and the engine manufacturer's service instructions; continue reassembly.",
-        "Tuesday": "Engine Reassembly — Check component placement, lubrication, fasteners, and specified torque as assembly progresses.",
-        "Wednesday": "Engine Reassembly — Continue assembly and verify each completed step before moving on.",
-        "Thursday": "Reassembly Checks — Check completed work against service instructions and correct any issues identified.",
-        "Friday": "Reassembly Progress & Notebook — Continue assembly as needed, document completed steps and remaining work, and complete shop cleanup."
+        "Tuesday": "Small Engine Choice Board — Continue the assigned activities using the engines that are still apart to identify parts and explain their functions.",
+        "Wednesday": "Choice Board Completion — Continue or finish activities and share completed work. Check parts organization and teardown notes before reassembly.",
+        "Thursday": "No School — MEA (October 15).",
+        "Friday": "No School — MEA (October 16)."
       },
-      "notebook": "Record reassembly sequence, specifications used, component checks, problems and corrections, and photos or sketches showing progress.",
-      "next": "Continue engine reassembly and verification using the manufacturer's service procedures."
+      "notebook": "Record choice-board progress, labeled engine components and functions, and parts organization. List what must be checked before reassembly.",
+      "next": "Finish and share choice-board work, verify parts organization, and prepare for guided engine reassembly."
     },
     "welding": {
       "active": true,
@@ -57,10 +57,10 @@ const WEEKLY_DATA = {
       "goal": "Develop safe welding skills through spot welding practice and progressive MIG bead practice.",
       "days": {
         "Monday": "MIG Bead Plate — Review PPE, safe setup, and prior bead quality; continue the four-layer plate.",
-        "Tuesday": "MIG Bead Plate — Run beads across the full plate, rotating between layers; focus on consistent travel speed and bead width.",
-        "Wednesday": "MIG Bead Plate — Continue layers with attention to overlap and consistency; record technique adjustments.",
-        "Thursday": "Bead Plate Inspection — Complete remaining layers, clean and inspect the plate, and identify strengths and areas to improve.",
-        "Friday": "MIG Practice & Reflection — Continue targeted bead practice as needed and document settings, observations, and improvement."
+        "Tuesday": "MIG Bead Plate — Review PPE and machine setup, then weld parallel beads across the plate with attention to travel speed and consistent bead width.",
+        "Wednesday": "MIG Bead Practice — Inspect each layer, allow appropriate cooling and cleaning, rotate the plate 90 degrees, and continue toward the four-layer goal. Record technique adjustments.",
+        "Thursday": "No School — MEA (October 15).",
+        "Friday": "No School — MEA (October 16)."
       },
       "notebook": "Record machine settings, layer progress, plate rotation, bead-quality observations, technique adjustments, and evidence of improvement.",
       "next": "Apply consistent MIG bead technique to the next teacher-assigned welding task."
