@@ -1,69 +1,64 @@
-// ============================================================
-// ISLE CTE — WEEKLY CALENDAR
-// ============================================================
-// THIS IS THE ONLY FILE YOU NEED TO EDIT EACH WEEK.
-// Change the week dates and Monday-Friday activities, then Commit changes.
-// ============================================================
-
+// ISLE CTE WEEKLY CALENDAR
+// Edit this shared file to update all class calendars.
 const WEEKLY_DATA = {
-  "week": "October 19 - October 23, 2026",
-  "note": "Thursday, October 22: PBIS HS PLC. Detailed assignments, due dates, and submissions remain in Google Classroom.",
+  "week": "October 26 - October 30, 2026",
+  "note": "All work is completed in class. Progress depends on teacher approval and readiness. Detailed assignments and submissions are in Google Classroom.",
   "classes": {
     "industrial-tech": {
       "active": true,
-      "title": "Industrial Tech",
-      "goal": "Build a useful wooden storage box from an approved plan using accurate measurements, safe tool procedures, and square assembly.",
+      "title": "Industrial Technology",
+      "goal": "Begin wooden box construction from an approved drawing and cut list, using accurate layout, qualified tool use, and square assembly.",
       "days": {
-        "Monday": "Wooden Storage Box — Review the assignment and progress, finish dimensioned drawings and parts lists, and get teacher approval before cutting.",
-        "Tuesday": "Box Parts — Measure and mark approved parts, then cut matching pieces using required tool qualifications and teacher supervision.",
-        "Wednesday": "Dry Fit & Square — Check part sizes, dry-fit the box, check for square, and make teacher-approved adjustments before assembly.",
-        "Thursday": "Box Assembly — Assemble approved parts, check alignment and square, and follow teacher directions for fastening and clamping.",
-        "Friday": "Box Progress & Quality Check — Continue assembly or sand completed assemblies as approved. Check fit, dimensions, and craftsmanship; document progress."
+        "Monday": "Review box plans and actual material thickness; complete cut lists and mark parts for teacher approval.",
+        "Tuesday": "Cut approved parts with teacher supervision and required tool qualifications; label each piece.",
+        "Wednesday": "Dry-fit parts, measure diagonals, and correct fit with teacher approval.",
+        "Thursday": "Assemble approved boxes; check alignment and square before leaving clamps.",
+        "Friday": "Continue assembly or sand approved assemblies; complete a quality check and notebook reflection."
       },
-      "notebook": "Include the box purpose, actual material thickness, dimensioned drawing, parts list, short-end length calculation, and teacher approval. Record measurements, fit checks, progress, and improvements.",
-      "next": "Complete the box, refine surfaces and edges, and evaluate the finished project against the design criteria."
+      "notebook": "Dimensioned sketch, cut list, material thickness, teacher approvals, measurements, and daily build log.",
+      "next": "Complete construction and evaluate fit and craftsmanship."
     },
     "home-repairs": {
       "active": true,
-      "title": "Home Repairs",
-      "goal": "Explain rough-in research and develop a teacher-approved layout that connects electrical, plumbing, or HVAC planning to the practice wall.",
+      "title": "Home Repair",
+      "goal": "Create a measured electrical rough-in mock-up on practice walls while awaiting wire and boxes.",
       "days": {
-        "Monday": "Choice Board & Presentations — Finish remaining choice-board activities and presentations; explain how research connects to the practice wall.",
-        "Tuesday": "Wall Readiness — Check dimensions, square, and remaining wall corrections. Review presentation takeaways before planning rough-in locations.",
-        "Wednesday": "Rough-In Planning — Sketch proposed electrical, plumbing, or HVAC locations in the practice wall and explain the purpose of each.",
-        "Thursday": "Layout Review — Review proposed rough-in layouts with the teacher, check for conflicts, and revise before marking approved locations.",
-        "Friday": "Practice Wall Application — Mark teacher-approved rough-in locations and begin approved practice tasks as materials and readiness allow. Document layout decisions."
+        "Monday": "Sketch the practice wall and propose receptacle, switch, and light locations; explain each purpose.",
+        "Tuesday": "Measure from a common reference and transfer the approved layout using tape or pencil.",
+        "Wednesday": "Make and label cardboard box stand-ins; reserve actual mounting and openings for the real components.",
+        "Thursday": "Use string or colored tape for proposed cable routes; identify protection needs and possible conflicts.",
+        "Friday": "Present the layout, revise from teacher feedback, and complete a materials list."
       },
-      "notebook": "Record presentation takeaways, wall checks, a labeled rough-in sketch, teacher feedback, and reasons for layout decisions.",
-      "next": "Continue teacher-approved rough-in practice in the wall sections."
+      "notebook": "Wall sketch, measured locations, routing plan, teacher feedback, and materials list. Mock-up only; no drilling or electrical connections.",
+      "next": "Check the layout against applicable requirements and actual components before installation."
     },
     "auto-tech": {
       "active": true,
-      "title": "Small Engine",
-      "goal": "Use disassembled engines to identify components, explain their functions, and demonstrate knowledge of engine operation, tools, and safety through the choice board.",
+      "title": "Auto Tech",
+      "goal": "Inventory and inspect engine parts, locate engine-specific service procedures, and begin approved reassembly.",
       "days": {
-        "Monday": "Small Engine Choice Board — Review progress and continue assigned activities using disassembled engines to identify parts and explain their functions.",
-        "Tuesday": "Engine Knowledge & Evidence — Continue choice-board work on components, the four-stroke cycle, tools, and safety. Check explanations against class resources.",
-        "Wednesday": "Choice Board Completion — Finish required activities, label supporting evidence, and prepare to explain the work.",
-        "Thursday": "Share & Check — Share completed choice-board work and explain engine parts and operation. Check parts organization and teardown notes.",
-        "Friday": "Reassembly Readiness — Finish any remaining choice-board work and verify parts inventory and service information. Begin guided reassembly only with teacher approval."
+        "Monday": "Check choice-board completion; inventory parts and fasteners and record missing or damaged items.",
+        "Tuesday": "Use the correct service manual to prepare a reassembly checklist; observe teacher demonstration.",
+        "Wednesday": "Begin supervised reassembly after inventory and checklist approval; record work and specifications.",
+        "Thursday": "Continue approved reassembly; request checks before components are enclosed.",
+        "Friday": "Complete a progress inspection and explain assembled components, remaining work, and problems."
       },
-      "notebook": "Record choice-board progress, labeled components and functions, and explanations of engine operation. Document parts organization, missing items, and checks needed before reassembly.",
-      "next": "Continue guided engine reassembly using the manufacturer's service instructions and teacher checkpoints."
+      "notebook": "Engine identification, service source, parts inventory, approved sequence, torque values with units and source, and daily progress.",
+      "next": "Continue supervised reassembly and required checks before any test run."
     },
     "welding": {
       "active": true,
       "title": "Welding / Manufacturing",
-      "goal": "Improve consistency and control in MIG welding by completing parallel beads and inspecting progress through the four-layer bead plate.",
+      "goal": "Improve MIG bead consistency through inspected practice toward a four-layer bead plate.",
       "days": {
-        "Monday": "MIG Bead Plate — Review PPE, safe setup, and current plate progress. Practice parallel beads with consistent travel speed and bead width.",
-        "Tuesday": "Bead Consistency — Continue covering the plate with parallel beads. Inspect bead shape and spacing and record teacher-guided adjustments.",
-        "Wednesday": "Layer Inspection & Rotation — Clean and inspect completed layers, allow appropriate cooling, rotate the plate 90 degrees, and continue toward four layers.",
-        "Thursday": "Four-Layer Practice — Continue bead-plate work at the current layer. Focus on work angle, travel speed, and consistent bead placement.",
-        "Friday": "Bead Plate Quality Check — Continue or complete the four-layer plate, compare early and later beads, and identify improvements and the next practice goal."
+        "Monday": "Review PPE, ventilation, safe setup, and current layer; establish a baseline bead.",
+        "Tuesday": "Practice consistent travel speed, bead width, and spacing; record teacher-guided changes.",
+        "Wednesday": "Inspect the current layer; after teacher approval and appropriate cooling, rotate 90 degrees for the next layer.",
+        "Thursday": "Continue current-layer practice; compare results before and after one approved adjustment.",
+        "Friday": "Complete a quality checkpoint and reflection; continue toward four layers at an appropriate pace."
       },
-      "notebook": "Record machine settings, layer progress, 90-degree plate rotations, bead-quality observations, and teacher-guided technique adjustments. Include evidence of improvement.",
-      "next": "Finish any remaining bead-plate layers and apply consistent technique to the next teacher-assigned welding task."
+      "notebook": "Machine setup, settings, layer and rotation log, observed bead quality, feedback, and improvement evidence.",
+      "next": "Finish remaining approved layers and prepare for the next welding skill."
     }
   }
 };
