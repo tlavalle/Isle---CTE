@@ -9,7 +9,7 @@ const WEEKLY_DATA = {
       "title": "Industrial Technology",
       "goal": "Repair engineering notebooks and continue wooden box construction with documented measurements, decisions, and quality checks.",
       "days": {
-        "Monday": "Engineering Notebook Reset: review expectations, model a wooden box entry, organize required work, and repair missing or incomplete entries.",
+        "Monday": "Classroom Notebook Review: go over notebook expectations together again, review what belongs in each section and a complete project entry, then organize notebooks and correct missing or incomplete work. Finish with a teacher notebook check.",
         "Tuesday": "Complete notebook corrections and teacher check; review box progress and identify the next approved construction step.",
         "Wednesday": "Continue approved box construction or assembly; record actual measurements, fit problems, and corrections.",
         "Thursday": "Continue assembly or sand approved assemblies; check square, alignment, and craftsmanship with teacher feedback.",
