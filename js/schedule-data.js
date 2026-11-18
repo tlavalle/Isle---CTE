@@ -1,64 +1,64 @@
 // ISLE CTE WEEKLY CALENDAR
 // Edit this shared file to update all class calendars.
 const WEEKLY_DATA = {
-  "week": "November 9 - November 13, 2026",
-  "note": "Monday-Wednesday: regular schedule. Thursday, November 12: noon release; classes are 4th-hour Industrial Technology, Home Repair, and Welding / Manufacturing. Parent-teacher conferences Thursday, noon-8 p.m. Friday, November 13: no school. Detailed assignments and submissions are in Google Classroom.",
+  "week": "November 16–20, 2026",
+  "note": "Start with your Daily Goal. Check Google Classroom for the latest directions, due dates and submission links. Turn in all work through Google Classroom.",
   "classes": {
     "industrial-tech": {
       "active": true,
       "title": "Industrial Technology",
-      "goal": "Continue wooden box construction while checking measurements, fit, alignment, and assembly quality; keep engineering notebooks current.",
+      "goal": "Move your box project forward and prepare a dimensioned drawing for your next project.",
       "days": {
-        "Monday": "Review box progress and measurements with the teacher; continue the next approved construction or assembly step.",
-        "Tuesday": "Continue approved box construction; check fit, square, and alignment before securing parts. Record measurements and any corrections.",
-        "Wednesday": "Complete a box progress and notebook checkpoint. Identify completed work, missing assignments, and one next step before conferences.",
-        "Thursday": "Noon release. 4th-hour Industrial Tech only: short approved box work session, notebook progress check, and thorough cleanup. Other Industrial Tech sections do not meet.",
-        "Friday": "No school."
+        "Monday": "Check your box measurements, fit and alignment.",
+        "Tuesday": "Update your notebook with a labeled sketch and actual dimensions.",
+        "Wednesday": "Continue your teacher-approved build step. Sketch your next project in Onshape or on paper.",
+        "Thursday": "Check your work against the rubric and record adjustments.",
+        "Friday": "Submit your notebook check and record your next build step."
       },
-      "notebook": "Organized, dated entries with titles, dimensioned sketches, actual measurements, materials, work completed, decisions, teacher feedback, and reflections. Correct missing work honestly; do not invent past data.",
-      "next": "Continue approved box construction and finishing while maintaining complete notebook entries."
-    },
-    "home-repairs": {
-      "active": true,
-      "title": "Home Repair",
-      "goal": "Continue measured electrical rough-in layout and planning; begin teacher-approved practice installation only if materials are available.",
-      "days": {
-        "Monday": "Review the practice-wall plan, device locations, measurements, and materials list. Confirm the next approved step with the teacher.",
-        "Tuesday": "Refine box locations and proposed cable routes using available mock-up materials. If actual components are available, review them with the teacher before approved practice installation.",
-        "Wednesday": "Check layout and routing with the teacher; update the measured sketch and notebook. Identify completed work, missing assignments, and one next step before conferences.",
-        "Thursday": "Noon release. Short layout and progress check; document measurements, revisions, and next steps in notebooks, then clean up.",
-        "Friday": "No school."
-      },
-      "notebook": "Measured wall sketch, labeled device locations, proposed cable routes, materials list, work completed, teacher feedback, and revisions. Record actual progress and measurements; installation requires teacher approval and available materials.",
-      "next": "Review the plan and actual components with the teacher before installation when materials are available."
+      "notebook": "Include the date, daily goal, dimensioned sketch, work completed, changes and your next step.",
+      "next": "Prepare your first project for the December 11 deadline in Google Classroom."
     },
     "auto-tech": {
       "active": true,
       "title": "Auto Tech",
-      "goal": "Identify electrical circuit components, draw and trace basic circuits, and practice selecting and using multimeter functions with available equipment.",
+      "goal": "Document the school-engine teardown and plan the next step for your own engine project.",
       "days": {
-        "Monday": "Review power source, conductor, load, switch, and return path; draw and label a basic automotive circuit and trace its current path.",
-        "Tuesday": "Review voltage, current, and resistance through teacher demonstration. Practice choosing multimeter functions and taking teacher-approved low-voltage measurements if equipment is ready; otherwise use diagrams and demonstration observations.",
-        "Wednesday": "Complete an electrical foundations and notebook checkpoint: explain a complete circuit, locate a likely open-circuit fault, and identify completed work, missing assignments, and one next step before conferences.",
-        "Thursday": "No Auto Tech class. Noon release; parent-teacher conferences noon-8 p.m.",
-        "Friday": "No school."
+        "Monday": "Locate your school-engine teardown notes and photos.",
+        "Tuesday": "Label the components you identified and record their condition.",
+        "Wednesday": "Finish missing teardown documentation or review your individual engine plan with the teacher.",
+        "Thursday": "Record the engine model, symptoms and your next diagnostic step.",
+        "Friday": "Submit your progress evidence and notebook check in Google Classroom."
       },
-      "notebook": "Electrical vocabulary, labeled circuit diagrams, current paths, predictions and explanations, demonstration observations, and reflection. Record only measurements actually observed.",
-      "next": "Build and measure teacher-approved low-voltage circuits when equipment and materials are ready."
+      "notebook": "Include labeled components, teardown evidence, observations and your next diagnostic step.",
+      "next": "Get teacher approval for your individual engine and repair plan."
+    },
+    "home-repairs": {
+      "active": true,
+      "title": "Home Repair",
+      "goal": "Finish documenting the wiring on your practice wall and prepare it for teacher inspection.",
+      "days": {
+        "Monday": "Identify the junction box, outlet, switch and light on your wall section.",
+        "Tuesday": "Update your diagram to show the always-on outlet and the switched light.",
+        "Wednesday": "Compare your drawing with the de-energized practice wall and ask for an inspection.",
+        "Thursday": "Record any corrections and explain what the switch controls.",
+        "Friday": "Submit your labeled diagram and assigned evidence in Google Classroom."
+      },
+      "notebook": "Include your labeled wall diagram, your explanation of the outlet and light branches, and any inspection feedback.",
+      "next": "Complete your teacher’s inspection checklist and update your documentation."
     },
     "welding": {
       "active": true,
       "title": "Welding / Manufacturing",
-      "goal": "Improve MIG bead consistency and document progress toward the four-layer bead plate.",
+      "goal": "Plan and fabricate an approved manufacturing project that includes welding.",
       "days": {
-        "Monday": "Review PPE, ventilation, safe setup, and bead-plate progress; continue approved practice with one specific bead-quality goal.",
-        "Tuesday": "Practice consistent travel speed, bead width, and spacing. Record machine settings and results; rotate 90 degrees for the next layer only after teacher approval and appropriate cooling.",
-        "Wednesday": "Complete a bead-quality and notebook checkpoint. Record settings, results, improvements, completed work, missing assignments, and one next step before conferences.",
-        "Thursday": "Noon release. Short teacher-approved bead-plate practice if time allows; document progress, shut down equipment, and complete shop cleanup.",
-        "Friday": "No school."
+        "Monday": "Choose your project and sketch the finished part.",
+        "Tuesday": "Add dimensions and prepare a cut list.",
+        "Wednesday": "Review material needs and your fabrication sequence with the teacher.",
+        "Thursday": "Continue approved fabrication and document a quality checkpoint.",
+        "Friday": "Update your notebook with progress evidence and the next production step."
       },
-      "notebook": "Machine setup and settings, layer and rotation log, bead sketches or photos, teacher feedback, and evidence of improvement.",
-      "next": "Complete remaining approved bead-plate layers and prepare for the next teacher-assigned skill."
+      "notebook": "Include a dimensioned drawing, cut list, process evidence and quality-check notes.",
+      "next": "Confirm materials and fit-up before moving on to teacher-approved welding."
     }
   }
 };
