@@ -10,8 +10,8 @@ const WEEKLY_DATA = {
       "goal": "Begin planning your own original, realistic project: choose an idea, research it, sketch it, and identify materials and build steps.",
       "days": {
         "Monday": "SUBSTITUTE / ONLINE: My Project — Design and Planning. Choose a realistic project to create, explain its purpose, research examples, draw a labeled sketch with approximate dimensions, list materials, and outline the first five build steps. Submit your proposal and sketch in Google Classroom. No shop work.",
-        "Tuesday": "Review project ideas, feasibility, dimensions, and materials with the teacher.",
-        "Wednesday": "Revise your project proposal and create a more accurate dimensioned drawing in Onshape or on paper.",
+        "Tuesday": "Work on your new individual project: finalize the design and dimensions, confirm materials, and begin teacher-approved project construction.",
+        "Wednesday": "Continue working on your new individual project. Follow your build plan, document progress in your engineering notebook, and record the next steps.",
         "Thursday": "NO SCHOOL — Thanksgiving.",
         "Friday": "NO SCHOOL — Thanksgiving break."
       },
